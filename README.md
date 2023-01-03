@@ -10,6 +10,7 @@ Welcome to the Software Engineering and Architecture Resources repository! This 
 - [Anti-patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources#anti-patterns)
 - [Refactoring Techniques](https://github.com/TheodorosKarropoulos/software.engineer.resources#refactoring-technics)
 - [Code Smells](https://github.com/TheodorosKarropoulos/software.engineer.resources#code-smells)
+- [Branching Strategies](https://github.com/TheodorosKarropoulos/software.engineer.resources#branching-strategies)
 
 #### Introduction
 Software engineering and architecture are key disciplines in the field of computer science, concerned with the design, development, and maintenance of software systems. In this repository, you will find a variety of resources on these topics, ranging from general best practices to specific design patterns and real-world case studies.
@@ -58,3 +59,11 @@ Software engineering and architecture are key disciplines in the field of comput
 - Object-oriented smells: Code smells that relate to the design of object-oriented code, and may indicate problems with the structure or relationships between classes. Examples include duplication, tight coupling, and inappropriate intimacy.
 - Change prevention smells: Code smells that indicate areas of the code that are resistant to change, and may be difficult to modify or extend. Examples include code duplication, feature envy, and data clumps.
 - Refactoring smells: Code smells that indicate areas of the code that may benefit from refactoring to improve its design and maintainability. Examples include long methods, primitive obsession, and long parameter lists.
+
+#### Branching Strategies
+
+- Gitflow: A branching strategy that involves using two main branches, called "develop" and "master," as well as additional supporting branches for features, hotfixes, and releases. The develop branch is used for ongoing development, and the master branch represents the latest stable release.
+- Trunk-Based Development: A branching strategy in which all development is done in a single "trunk" branch, and developers are expected to commit their code frequently and resolve conflicts as they arise.
+- Feature Branching: A branching strategy in which a separate branch is created for each new feature that is being developed. When the feature is complete, the branch is merged back into the main development branch.
+- Release Branching: A branching strategy in which a separate branch is created for each new release that is being prepared. The release branch is used to stabilize the code and fix any final bugs before the release is deployed.
+- Branch by Abstraction: A branching strategy in which a new abstraction layer is introduced into the codebase, allowing the old and new implementations to coexist until the new implementation is ready to be fully deployed.
