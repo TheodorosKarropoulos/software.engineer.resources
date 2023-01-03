@@ -13,6 +13,8 @@ Agile development often involves using an agile framework, such as Scrum or Kanb
 
 Overall, agile development is designed to be flexible and responsive to change, and to prioritize the needs of the customer and the business. It is often used in fast-paced, rapidly changing environments where traditional, more rigid development approaches may not be practical.
 
+---
+
 #### Popular Agile Development Frameworks
 
 - Scrum: Scrum is a framework for managing and completing complex projects. It is based on the principles of transparency, inspection, and adaptation. In Scrum, work is organized into short iterations called "sprints," and teams are empowered to self-organize and make decisions about how to complete their work.
@@ -20,6 +22,7 @@ Overall, agile development is designed to be flexible and responsive to change, 
 - Lean: Lean is a framework for maximizing value and minimizing waste. It is based on the principles of identifying value, optimizing flow, and continuously improving. In Lean, teams focus on delivering value to the customer as quickly and efficiently as possible, and they use tools like value stream mapping and continuous improvement to eliminate waste and improve their processes.
 - Extreme Programming (XP): Extreme Programming (XP) is a framework for developing software in a highly collaborative, customer-centric way. It is based on the principles of communication, simplicity, feedback, and courage. In XP, teams work closely with the customer to define and deliver software incrementally, and they use practices like pair programming and continuous integration to ensure high quality and rapid delivery.
 
+---
 
 #### Scrum Ceremonies
 
@@ -32,6 +35,8 @@ In Scrum, there are four main ceremonies or events that are used to structure th
 
 These ceremonies are designed to help the team stay focused, communicate effectively, and continuously improve. They are typically time-boxed (meaning they have a fixed duration) to ensure that they are efficient and effective.
 
+---
+
 #### Kanban Ceremonies
 
 In Kanban, there are typically three main ceremonies or events that are used to structure the development process:
@@ -41,6 +46,8 @@ In Kanban, there are typically three main ceremonies or events that are used to 
 - Retrospective Meeting: This is a meeting that occurs periodically (e.g. monthly or quarterly) in which the team reflects on their work and identifies ways to improve their process going forward.
 
 These ceremonies are designed to help the team continuously improve their workflows and processes, and to identify and address any issues or bottlenecks that may be slowing them down. They are typically time-boxed (meaning they have a fixed duration) to ensure that they are efficient and effective.
+
+---
 
 #### Lean Ceremonies
 
@@ -52,7 +59,10 @@ In Lean, there are typically three main ceremonies or events that are used to st
 
 These ceremonies are designed to help the team continuously improve their workflows and processes, and to identify and address any issues or bottlenecks that may be slowing them down. They are typically time-boxed (meaning they have a fixed duration) to ensure that they are efficient and effective.
 
+---
+
 #### Extreme Programming Ceremonies
+
 
 In Extreme Programming (XP), there are several main ceremonies or events that are used to structure the development process:
 
