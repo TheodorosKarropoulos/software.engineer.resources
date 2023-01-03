@@ -7,6 +7,7 @@ Welcome to the Software Engineering and Architecture Resources repository! This 
 - [Time Complexity](https://github.com/TheodorosKarropoulos/software.engineer.resources#time-complexity)
 - [Best Practices](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#best-practices)
 - [Design Patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#design-patterns)
+- [Anti-patterns]()
 
 #### Introduction
 Software engineering and architecture are key disciplines in the field of computer science, concerned with the design, development, and maintenance of software systems. In this repository, you will find a variety of resources on these topics, ranging from general best practices to specific design patterns and real-world case studies.
@@ -24,3 +25,14 @@ Software engineering and architecture are key disciplines in the field of comput
 
 #### Design Patterns
 [Design Patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/Introduction.md) are established solutions to common problems that occur in software design. They provide a way for developers to reuse successful designs and avoid reinventing the wheel
+
+#### Anti-patterns
+
+- Spaghetti code: Code that is poorly structured, difficult to read, and hard to maintain.
+- Golden hammer: Using a particular solution or tool for every problem, even when it may not be the best fit.
+- Copy-paste programming: Copying and pasting code without understanding how it works or modifying it to fit the specific context.
+- God object: A class that has too many responsibilities and becomes difficult to maintain.
+- Leaky abstractions: Abstractions that break down or "leak" implementation details, making the code harder to understand and maintain.
+- Accidental complexity: Adding unnecessary complexity to the codebase, making it harder to understand and maintain.
+- Premature optimization: Optimizing code without a clear understanding of the performance trade-offs and their impact on the overall system.
+- Not invented here: Refusing to use external libraries or solutions, even when they would be more appropriate, because of a preference for in-house solutions.
