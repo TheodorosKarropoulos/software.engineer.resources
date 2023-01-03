@@ -9,6 +9,7 @@ Welcome to the Software Engineering and Architecture Resources repository! This 
 - [Design Patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#design-patterns)
 - [Anti-patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources#anti-patterns)
 - [Refactoring Techniques](https://github.com/TheodorosKarropoulos/software.engineer.resources#refactoring-technics)
+- [Code Smells](https://github.com/TheodorosKarropoulos/software.engineer.resources#code-smells)
 
 #### Introduction
 Software engineering and architecture are key disciplines in the field of computer science, concerned with the design, development, and maintenance of software systems. In this repository, you will find a variety of resources on these topics, ranging from general best practices to specific design patterns and real-world case studies.
@@ -50,3 +51,10 @@ Software engineering and architecture are key disciplines in the field of comput
 - Replace inheritance with delegation: Replace inheritance with delegation (using composition) to improve the flexibility and maintainability of the code.
 - Replace magic numbers with constants: Replace "magic numbers" (hard-coded values) with named constants to make the code more readable and maintainable.
 - Consolidate duplicated code: Remove duplicated code by extracting common functionality into a separate method.
+
+#### Code Smells
+
+- Bloaters: Code smells that indicate areas of the code that are excessively large and complex, and may be difficult to understand and maintain. Examples include large classes, long methods, and large parameters.
+- Object-oriented smells: Code smells that relate to the design of object-oriented code, and may indicate problems with the structure or relationships between classes. Examples include duplication, tight coupling, and inappropriate intimacy.
+- Change prevention smells: Code smells that indicate areas of the code that are resistant to change, and may be difficult to modify or extend. Examples include code duplication, feature envy, and data clumps.
+- Refactoring smells: Code smells that indicate areas of the code that may benefit from refactoring to improve its design and maintainability. Examples include long methods, primitive obsession, and long parameter lists.
