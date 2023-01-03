@@ -6,7 +6,7 @@
 - [Adapter](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/adapter.md): The adapter pattern allows classes with incompatible interfaces to work together by wrapping the class with a compatible interface.
 - [Bridge](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/bridge.md): The bridge pattern decouples an abstraction from its implementation, allowing the two to vary independently.
 - [Decorator](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/decorator.md): The decorator pattern allows new behavior to be added to an existing object dynamically, by wrapping the object with a decorator object that adds the new behavior.
-- Facade: The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
+- [Facade](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/facade.md): The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
 - Flyweight: The flyweight pattern reduces the memory footprint of an object by sharing common data among objects, rather than storing the data in each object.
 - Command: The command pattern encapsulates a request as an object, allowing it to be executed or queued for later execution.
 - Iterator: The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
