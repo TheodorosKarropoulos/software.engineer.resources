@@ -7,7 +7,7 @@ Welcome to the Software Engineering and Architecture Resources repository! This 
 - [Time Complexity](https://github.com/TheodorosKarropoulos/software.engineer.resources#time-complexity)
 - [Best Practices](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#best-practices)
 - [Design Patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#design-patterns)
-- [Anti-patterns]()
+- [Anti-patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources#anti-patterns)
 
 #### Introduction
 Software engineering and architecture are key disciplines in the field of computer science, concerned with the design, development, and maintenance of software systems. In this repository, you will find a variety of resources on these topics, ranging from general best practices to specific design patterns and real-world case studies.
