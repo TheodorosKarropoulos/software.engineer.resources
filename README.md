@@ -8,6 +8,7 @@ Welcome to the Software Engineering and Architecture Resources repository! This 
 - [Best Practices](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#best-practices)
 - [Design Patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/README.md#design-patterns)
 - [Anti-patterns](https://github.com/TheodorosKarropoulos/software.engineer.resources#anti-patterns)
+- [Refactoring Techniques](https://github.com/TheodorosKarropoulos/software.engineer.resources#refactoring-technics)
 
 #### Introduction
 Software engineering and architecture are key disciplines in the field of computer science, concerned with the design, development, and maintenance of software systems. In this repository, you will find a variety of resources on these topics, ranging from general best practices to specific design patterns and real-world case studies.
@@ -36,3 +37,16 @@ Software engineering and architecture are key disciplines in the field of comput
 - Accidental complexity: Adding unnecessary complexity to the codebase, making it harder to understand and maintain.
 - Premature optimization: Optimizing code without a clear understanding of the performance trade-offs and their impact on the overall system.
 - Not invented here: Refusing to use external libraries or solutions, even when they would be more appropriate, because of a preference for in-house solutions.
+
+#### Refactoring Technics
+
+- Extract method: Move a block of code into a separate method with a descriptive name.
+- Extract variable: Replace an expression with a descriptive variable name.
+- Rename: Rename a class, method, or variable to make its purpose clearer.
+- Inline: Replace a method call with the contents of the method.
+- Replace conditional with polymorphism: Replace a conditional statement with polymorphism (using inheritance or interface implementation) to make the code more flexible and maintainable.
+- Replace loop with pipeline: Replace a loop with a pipeline of functions to make the code more readable and easier to maintain.
+- Extract class: Move a group of related methods and variables into a separate class.
+- Replace inheritance with delegation: Replace inheritance with delegation (using composition) to improve the flexibility and maintainability of the code.
+- Replace magic numbers with constants: Replace "magic numbers" (hard-coded values) with named constants to make the code more readable and maintainable.
+- Consolidate duplicated code: Remove duplicated code by extracting common functionality into a separate method.
