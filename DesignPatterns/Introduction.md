@@ -12,6 +12,9 @@
   - Composite: The composite pattern composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions of objects uniformly.
   - Flyweight: The flyweight pattern reduces the memory footprint of an object by sharing common data among objects, rather than storing the data in each object.
   - Proxy: The proxy pattern provides a surrogate or placeholder object that controls access to another object, which may be remote, expensive to create, or sensitive.
+  - Service locator: The service locator pattern centralizes the access to services and hides the complexity of service lookups and access from clients.
+  - Null object: The null object pattern provides a default object with no implementation that can be used as a placeholder in cases where an object is expected but none is available.
+  - Transfer object:The transfer object pattern provides a lightweight data transfer object that carries data between processes or systems. Transfer objects are often used in conjunction with a service facade to reduce the number of calls and the amount of data transferred between layers or systems.
 - Behavioral Design Patterns
   - Command: The command pattern encapsulates a request as an object, allowing it to be executed or queued for later execution.
   - Iterator: The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
@@ -24,8 +27,4 @@
   - Visitor: The visitor pattern represents an operation to be performed on the elements of an object structure, and separates the operation from the object structure.
   - Chain of responsibility: The chain of responsibility pattern passes a request along a dynamic chain of objects until it is handled, allowing the request sender to be decoupled from the request handler.
   - Interpreter: The interpreter pattern defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in the language.
-- Other Design Patterns
-  - Null object: The null object pattern provides a default object with no implementation that can be used as a placeholder in cases where an object is expected but none is available.
-  - Service locator: The service locator pattern centralizes the access to services and hides the complexity of service lookups and access from clients.
   - Specification: The specification pattern separates a complex query into simpler components that can be combined and reused in different contexts.
-  - Transfer object:The transfer object pattern provides a lightweight data transfer object that carries data between processes or systems. Transfer objects are often used in conjunction with a service facade to reduce the number of calls and the amount of data transferred between layers or systems.
