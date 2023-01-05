@@ -1,28 +1,31 @@
-- [Singleton](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/singleton.md): The singleton pattern ensures that a class has only one instance and provides a global access point to that instance.
-- [Factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/factory.md): The factory pattern defines an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
-- [Abstract factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/abstract.factory.md): The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-- [Builder](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/builder.md): The builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
-- [Prototype](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/prototype.md): The prototype pattern allows objects to be created by copying existing objects rather than creating new ones from scratch.
-- [Adapter](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/adapter.md): The adapter pattern allows classes with incompatible interfaces to work together by wrapping the class with a compatible interface.
-- [Bridge](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/bridge.md): The bridge pattern decouples an abstraction from its implementation, allowing the two to vary independently.
-- [Decorator](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/decorator.md): The decorator pattern allows new behavior to be added to an existing object dynamically, by wrapping the object with a decorator object that adds the new behavior.
-- [Facade](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/facade.md): The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
-- Flyweight: The flyweight pattern reduces the memory footprint of an object by sharing common data among objects, rather than storing the data in each object.
-- Command: The command pattern encapsulates a request as an object, allowing it to be executed or queued for later execution.
-- Iterator: The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-- Mediator: The mediator pattern defines an object that coordinates communication among objects, reducing the dependencies among them.
-- Memento: The memento pattern captures the internal state of an object and stores it in a way that allows the object to be restored to that state later.
-- Observer: The observer pattern defines a one-to-many dependency between objects, such that when one object changes state, all of its dependents are notified and updated automatically.
-- State: The state pattern allows an object to alter its behavior when its internal state changes, and it appears to the client as if the object has changed its class.
-- Strategy: The strategy pattern allows an object to alter its behavior when its strategy or algorithm is changed.
-- Template method: The template method pattern defines the skeleton of an algorithm in a method, allowing subclasses to provide the implementation for one or more steps.
-- Visitor: The visitor pattern represents an operation to be performed on the elements of an object structure, and separates the operation from the object structure.
-- Chain of responsibility: The chain of responsibility pattern passes a request along a dynamic chain of objects until it is handled, allowing the request sender to be decoupled from the request handler.
-- Composite: The composite pattern composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions of objects uniformly.
-- Interpreter: The interpreter pattern defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in the language.
-- Null object: The null object pattern provides a default object with no implementation that can be used as a placeholder in cases where an object is expected but none is available.
-- Prototype: The prototype pattern allows objects to be created by copying existing objects rather than creating new ones from scratch.
-- Proxy: The proxy pattern provides a surrogate or placeholder object that controls access to another object, which may be remote, expensive to create, or sensitive.
-- Service locator: The service locator pattern centralizes the access to services and hides the complexity of service lookups and access from clients.
-- Specification: The specification pattern separates a complex query into simpler components that can be combined and reused in different contexts.
-- Transfer object:The transfer object pattern provides a lightweight data transfer object that carries data between processes or systems. Transfer objects are often used in conjunction with a service facade to reduce the number of calls and the amount of data transferred between layers or systems.
+- Creational Design Patterns
+  - [Singleton](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/singleton.md): The singleton pattern ensures that a class has only one instance and provides a global access point to that instance.
+  - [Factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/factory.md): The factory pattern defines an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
+  - [Abstract factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/abstract.factory.md): The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+  - [Builder](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/builder.md): The builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+  - [Prototype](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/prototype.md): The prototype pattern allows objects to be created by copying existing objects rather than creating new ones from scratch.
+- Structural Design Patterns
+  - [Adapter](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/adapter.md): The adapter pattern allows classes with incompatible interfaces to work together by wrapping the class with a compatible interface.
+  - [Bridge](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/bridge.md): The bridge pattern decouples an abstraction from its implementation, allowing the two to vary independently.
+  - [Decorator](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/decorator.md): The decorator pattern allows new behavior to be added to an existing object dynamically, by wrapping the object with a decorator object that adds the new behavior.
+  - [Facade](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/facade.md): The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
+  - Composite: The composite pattern composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions of objects uniformly.
+  - Flyweight: The flyweight pattern reduces the memory footprint of an object by sharing common data among objects, rather than storing the data in each object.
+  - Proxy: The proxy pattern provides a surrogate or placeholder object that controls access to another object, which may be remote, expensive to create, or sensitive.
+- Behavioral Design Patterns
+  - Command: The command pattern encapsulates a request as an object, allowing it to be executed or queued for later execution.
+  - Iterator: The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+  - Mediator: The mediator pattern defines an object that coordinates communication among objects, reducing the dependencies among them.
+  - Memento: The memento pattern captures the internal state of an object and stores it in a way that allows the object to be restored to that state later.
+  - Observer: The observer pattern defines a one-to-many dependency between objects, such that when one object changes state, all of its dependents are notified and updated automatically.
+  - State: The state pattern allows an object to alter its behavior when its internal state changes, and it appears to the client as if the object has changed its class.
+  - Strategy: The strategy pattern allows an object to alter its behavior when its strategy or algorithm is changed.
+  - Template method: The template method pattern defines the skeleton of an algorithm in a method, allowing subclasses to provide the implementation for one or more steps.
+  - Visitor: The visitor pattern represents an operation to be performed on the elements of an object structure, and separates the operation from the object structure.
+  - Chain of responsibility: The chain of responsibility pattern passes a request along a dynamic chain of objects until it is handled, allowing the request sender to be decoupled from the request handler.
+  - Interpreter: The interpreter pattern defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in the language.
+- Other Design Patterns
+  - Null object: The null object pattern provides a default object with no implementation that can be used as a placeholder in cases where an object is expected but none is available.
+  - Service locator: The service locator pattern centralizes the access to services and hides the complexity of service lookups and access from clients.
+  - Specification: The specification pattern separates a complex query into simpler components that can be combined and reused in different contexts.
+  - Transfer object:The transfer object pattern provides a lightweight data transfer object that carries data between processes or systems. Transfer objects are often used in conjunction with a service facade to reduce the number of calls and the amount of data transferred between layers or systems.
