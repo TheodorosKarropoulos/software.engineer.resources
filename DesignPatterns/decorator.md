@@ -127,5 +127,5 @@ This will output the following:
 
 ```csharp
 Espresso: $1.99
-Espresso, Whipped Cream, Chocolate Syrup
+Espresso, Chocolate Syrup, Whipped Cream: $3,24
 ```
