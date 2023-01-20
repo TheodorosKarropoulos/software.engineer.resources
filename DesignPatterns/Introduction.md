@@ -1,5 +1,5 @@
 - Creational Design Patterns
-  - [Singleton](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/singleton.md): The singleton pattern ensures that a class has only one instance and provides a global access point to that instance.
+  - [Singleton](singleton.md): The singleton pattern ensures that a class has only one instance and provides a global access point to that instance.
   - [Factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/factory.md): The factory pattern defines an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
   - [Abstract factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/abstract.factory.md): The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
   - [Builder](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/builder.md): The builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
