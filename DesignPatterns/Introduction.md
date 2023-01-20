@@ -1,14 +1,14 @@
 - Creational Design Patterns
   - [Singleton](singleton.md): The singleton pattern ensures that a class has only one instance and provides a global access point to that instance.
-  - [Factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/factory.md): The factory pattern defines an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
-  - [Abstract factory](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/abstract.factory.md): The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-  - [Builder](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/builder.md): The builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
-  - [Prototype](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/prototype.md): The prototype pattern allows objects to be created by copying existing objects rather than creating new ones from scratch.
+  - [Factory](factory.md): The factory pattern defines an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
+  - [Abstract factory](abstract.factory.md): The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+  - [Builder](builder.md): The builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+  - [Prototype](prototype.md): The prototype pattern allows objects to be created by copying existing objects rather than creating new ones from scratch.
 - Structural Design Patterns
-  - [Adapter](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/adapter.md): The adapter pattern allows classes with incompatible interfaces to work together by wrapping the class with a compatible interface.
-  - [Bridge](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/bridge.md): The bridge pattern decouples an abstraction from its implementation, allowing the two to vary independently.
-  - [Decorator](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/decorator.md): The decorator pattern allows new behavior to be added to an existing object dynamically, by wrapping the object with a decorator object that adds the new behavior.
-  - [Facade](https://github.com/TheodorosKarropoulos/software.engineer.resources/blob/main/DesignPatterns/facade.md): The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
+  - [Adapter](adapter.md): The adapter pattern allows classes with incompatible interfaces to work together by wrapping the class with a compatible interface.
+  - [Bridge](bridge.md): The bridge pattern decouples an abstraction from its implementation, allowing the two to vary independently.
+  - [Decorator](decorator.md): The decorator pattern allows new behavior to be added to an existing object dynamically, by wrapping the object with a decorator object that adds the new behavior.
+  - [Facade](facade.md): The facade pattern provides a simplified interface to a complex system, hiding the complexity and providing a single point of entry.
   - Composite: The composite pattern composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions of objects uniformly.
   - Flyweight: The flyweight pattern reduces the memory footprint of an object by sharing common data among objects, rather than storing the data in each object.
   - Proxy: The proxy pattern provides a surrogate or placeholder object that controls access to another object, which may be remote, expensive to create, or sensitive.
