@@ -18,7 +18,7 @@ To optimize the time complexity of an algorithm, you can consider the following 
 
 ### List of common time complexities, ordered from best to worst:
 
-1. O(1): [Constant time](TimeComplexity/ConstantTime.md). The number of operations does not depend on the size of the input.
+1. O(1): [Constant time](ConstantTime.md). The number of operations does not depend on the size of the input.
 2. O(log n): [Logarithmic time](TimeComplexity/LogarithmicTime.md). The number of operations is proportional to the logarithm of the size of the input.
 3. O(n): [Linear time](TimeComplexity/LinearTime.md). The number of operations is proportional to the size of the input.
 4. O(n log n): [Linear logarithmic time](TimeComplexity/LinearLogarithmicTime.md). The number of operations is proportional to the size of the input multiplied by the logarithm of the size of the input.
