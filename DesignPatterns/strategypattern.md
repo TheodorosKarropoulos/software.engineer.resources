@@ -21,8 +21,11 @@ Strategy pattern is a behavioral design pattern that allows you to define a fami
 - Supporting Open/Closed Principle: When you want to adhere to the Open/Closed Principle, which states that classes should be open for extension but closed for modification. The strategy pattern allows you to add new strategies without modifying existing code, promoting extensibility.
 
 *Use Case:*
+
 Let's consider a use case where we have a shopping application that calculates discounts for different types of products. We can use the strategy pattern to implement different discount strategies based on the product category
+
 *Implementation:*
+
 ```csharp
 using System;
 
