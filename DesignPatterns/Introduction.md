@@ -22,7 +22,7 @@
   - Memento: The memento pattern captures the internal state of an object and stores it in a way that allows the object to be restored to that state later.
   - Observer: The observer pattern defines a one-to-many dependency between objects, such that when one object changes state, all of its dependents are notified and updated automatically.
   - State: The state pattern allows an object to alter its behavior when its internal state changes, and it appears to the client as if the object has changed its class.
-  - Strategy: The strategy pattern allows an object to alter its behavior when its strategy or algorithm is changed.
+  - [Strategy](strategypattern.md): The strategy pattern allows an object to alter its behavior when its strategy or algorithm is changed.
   - Template method: The template method pattern defines the skeleton of an algorithm in a method, allowing subclasses to provide the implementation for one or more steps.
   - Visitor: The visitor pattern represents an operation to be performed on the elements of an object structure, and separates the operation from the object structure.
   - Chain of responsibility: The chain of responsibility pattern passes a request along a dynamic chain of objects until it is handled, allowing the request sender to be decoupled from the request handler.
