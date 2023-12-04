@@ -32,7 +32,7 @@ Software engineering and architecture are key disciplines in the field of comput
 
 #### Anti-patterns
 
-- Spaghetti code: Code that is poorly structured, difficult to read, and hard to maintain.
+- [Spaghetti code](anti-patterns/spaghetti-code.md): Code that is poorly structured, difficult to read, and hard to maintain.
 - Golden hammer: Using a particular solution or tool for every problem, even when it may not be the best fit.
 - Copy-paste programming: Copying and pasting code without understanding how it works or modifying it to fit the specific context.
 - God object: A class that has too many responsibilities and becomes difficult to maintain.
