@@ -1,7 +1,7 @@
 ## Refactoring Technics
 
-- Extract method: Move a block of code into a separate method with a descriptive name.
-- Extract variable: Replace an expression with a descriptive variable name.
+- [Extract method](extract-method.md): Move a block of code into a separate method with a descriptive name.
+- [Extract variable](extract-variable.md): Replace an expression with a descriptive variable name.
 - Rename: Rename a class, method, or variable to make its purpose clearer.
 - Inline: Replace a method call with the contents of the method.
 - Replace conditional with polymorphism: Replace a conditional statement with polymorphism (using inheritance or interface implementation) to make the code more flexible and maintainable.
