@@ -14,7 +14,7 @@ public class SquareCalculator
     public int CalculateSquare(int number)
     {
         // Premature optimization: using bitwise left shift for multiplication
-        return number * number;
+        return number << 1; // equivalent to number * 2
     }
 }
 ```
