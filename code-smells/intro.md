@@ -1,0 +1,5 @@
+## Code Smells
+- Bloaters: Code smells that indicate areas of the code that are excessively large and complex, and may be difficult to understand and maintain. Examples include large classes, long methods, and large parameters.
+- Object-oriented smells: Code smells that relate to the design of object-oriented code, and may indicate problems with the structure or relationships between classes. Examples include duplication, tight coupling, and inappropriate intimacy.
+- Change prevention smells: Code smells that indicate areas of the code that are resistant to change, and may be difficult to modify or extend. Examples include code duplication, feature envy, and data clumps.
+- Refactoring smells: Code smells that indicate areas of the code that may benefit from refactoring to improve its design and maintainability. Examples include long methods, primitive obsession, and long parameter lists.
